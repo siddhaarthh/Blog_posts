@@ -1,0 +1,29 @@
+.postContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(33, 127, 151, 0.475), 0 6px 20px 0 rgba(33, 127, 151, 0.475);
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.postTitle {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #0b0946;
+}
+
+.postMeta {
+  font-size: 0.9em;
+  color: #201eabb6;
+  margin-bottom: 20px;
+}
+
+.postContent {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #0e0d3fd7;
+  line-height: 1.2rem;
+}

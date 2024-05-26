@@ -1,0 +1,39 @@
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.blogList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add spacing between blog items */
+}
+
+.blogItem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(33, 127, 151, 0.475);
+  transition: box-shadow scale 0.8s ease-out;
+}
+
+.blogItem:hover {
+  box-shadow: 0 8px 12px rgba(33, 127, 151, 0.525);
+  scale: 1.02;
+}
+
+.blogItem h2 {
+  margin: 0 0 10px;
+  color: #0b0946; /* Change heading color */
+}
+
+.blogItem p {
+  margin: 0 0 10px;
+}
+
+.blogItem small {
+  color: #201eabb6; /* Change date color */
+}
